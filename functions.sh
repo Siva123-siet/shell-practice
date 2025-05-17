@@ -9,7 +9,7 @@ then
 else
     echo "You are running with root access"
 fi
-VALIDATE( $1,$2 )
+VALIDATE( $1 , $2 )
 if [ $1 -eq 0 ]
 then
     echo " Installing $2"
