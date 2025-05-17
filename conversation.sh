@@ -1,6 +1,6 @@
 #!/bin/bash
-Person1=Trump
-Person2=Musk
+Person1=TrumpPresident
+Person2=MuskScientist
 echo "$Person1 :: Hi $Person2, How are you doing"
 echo "$Person2 : Hi $Person1, Iam good thank you. How about you"
 echo "$Person1 :: Iam too good.What about plan this weekend"
