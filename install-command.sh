@@ -10,12 +10,10 @@ else
     echo "You are running with root access"
 fi
 
-dnf install mysqlll
-
+dnf install mysqll
 if [ $? -eq 0]
 then
     echo " Installing mysql"
 else
     echo "Not installing mysql"
-    exit 1
 fi 
