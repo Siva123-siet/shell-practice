@@ -1,2 +1,2 @@
-Person=$Person
+Person=Siva
 echo "Person is : $Person
