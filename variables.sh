@@ -1,2 +1,2 @@
 Person=Siva
-echo "Person is : $Person
+echo "Person is : $Person"
