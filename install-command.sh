@@ -5,6 +5,7 @@ Userid=$(id -u)
 if [ $Userid -ne 0 ]
 then
     echo "Please run script with root access:"
+    exit 1
 else
     echo "You are running with root access"
 fi
