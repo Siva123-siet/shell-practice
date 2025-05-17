@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Number=$1
+Number=$a
 
 #-gt --> greater than
 #-lt --> less than
