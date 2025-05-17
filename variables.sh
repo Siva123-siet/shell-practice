@@ -1,3 +1,3 @@
 #!/bin/bash
-Person=$1
+Person=Siva
 echo "Person is : $Person"
