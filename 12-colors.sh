@@ -7,7 +7,7 @@ Y="\e[33m"
 N="\e[0m"
 if [ $Userid -ne 0 ]
 then
-    echo -e "$R Error:Please run script with root access $N"
+    echo -e "$R Error: Please run script with root access $N"
     exit 1
 else
     echo "You are running with root access"
