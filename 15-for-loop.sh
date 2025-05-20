@@ -5,7 +5,7 @@
  #  echo $i
 #done
 
-PACKAGES=("mysql","python","nginx")
+PACKAGES=("mysql" "python" "nginx")
 for package in ${PACKAGES[@]}
 do 
    echo $package
