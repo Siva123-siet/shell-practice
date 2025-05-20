@@ -8,7 +8,7 @@ N="\e[0m"
 LOGS_FOLDER="/var/log/shellscript-logs"
 SCRIPT_NAME=$(echo $0 | cut -d "." -f1)
 LOGS_FILE="$LOGS_FOLDER/$SCRIPT_NAME.log"
-PACKAGES=("mysql","python","nginx")
+PACKAGES=("mysql" "python" "nginx")
 mkdir -p $LOGS_FOLDER
 echo "Script started executing at: $(date)" | tee -a $LOGS_FILE
 if [ $Userid -ne 0 ]
@@ -28,7 +28,8 @@ else
     exit 1
 fi 
 }
-for package in $@
+for package in ${PACKAGES[@]}
+#for package in $@
 do
    dnf list installed $package &>>$LOGS_FILE
    if [ $? -ne 0 ]
