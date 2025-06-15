@@ -3,4 +3,4 @@
 Movies=("Varsham" "Salaar" "Kalki" "Spirit" "Rajasaab")
 
 echo "First movie : ${Movies[0]}"
-echo "First movie : ${Movies[@]}"
+echo "Full movies : ${Movies[@]}"
